@@ -119,3 +119,8 @@ form > a.botao {
     color: black;
 }
 
+span {
+    color: rgb(255, 255, 255);
+    border: none;
+    
+}
