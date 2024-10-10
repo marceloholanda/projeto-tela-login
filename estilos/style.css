@@ -61,15 +61,36 @@ div#formulario > p {
 
 form > div.campo {
     background-color: blueviolet;
+    
     width: 100%;
     display: block;
     height: 30px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 div.campo > label {
     display: none;
+}
+
+div.campo > i {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+
+div.campo > input {
+    background-color: rgb(255, 255, 255);
+    font-size: 12;
+    width: calc(100% - 29px);
+    transform: translateY(-4px);
+    height: 100%;
+    border: 2px;
+    border-radius: 8px;
+    padding: 4px;
+
 }
 
 
